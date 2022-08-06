@@ -1,4 +1,6 @@
-package za.co.staffschedule.validation;
+package za.co.staffschedule.validation.annotation;
+
+import za.co.staffschedule.validation.annotation.EmailValidator;
 
 import java.lang.annotation.Documented;
 import java.lang.annotation.ElementType;

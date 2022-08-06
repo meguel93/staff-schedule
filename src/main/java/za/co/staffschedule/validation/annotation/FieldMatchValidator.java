@@ -1,12 +1,13 @@
-package za.co.staffschedule.validation;
+package za.co.staffschedule.validation.annotation;
 
 import javax.validation.ConstraintValidator;
 import javax.validation.ConstraintValidatorContext;
 
 import org.springframework.beans.BeanWrapperImpl;
+import za.co.staffschedule.validation.annotation.FieldMatch;
 
 public class FieldMatchValidator implements ConstraintValidator<FieldMatch, Object> {
-	
+
 	private String firstFieldName;
     private String secondFieldName;
     private String message;
@@ -42,5 +43,5 @@ public class FieldMatchValidator implements ConstraintValidator<FieldMatch, Obje
 
         return valid;
     }
-	
+
 }

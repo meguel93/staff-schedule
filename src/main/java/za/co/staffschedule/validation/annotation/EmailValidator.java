@@ -1,4 +1,4 @@
-package za.co.staffschedule.validation;
+package za.co.staffschedule.validation.annotation;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
