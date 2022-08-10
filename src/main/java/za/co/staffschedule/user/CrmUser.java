@@ -1,7 +1,7 @@
 package za.co.staffschedule.user;
 
-import za.co.staffschedule.validation.FieldMatch;
-import za.co.staffschedule.validation.ValidEmail;
+import za.co.staffschedule.validation.annotation.FieldMatch;
+import za.co.staffschedule.validation.annotation.ValidEmail;
 
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;

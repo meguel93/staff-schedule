@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.*;
 import za.co.staffschedule.exception.UserException;
 import za.co.staffschedule.request.UserRequestRequest;
 import za.co.staffschedule.response.UserResponse;
+import za.co.staffschedule.service.UserService;
 
 import javax.annotation.security.RolesAllowed;
 
